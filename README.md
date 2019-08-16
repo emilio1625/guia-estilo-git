@@ -89,7 +89,7 @@ $ git branch --merged | grep -v "\*"
   opcional y un pie de mensaje opcional:
 
   ```
-  tipo: título
+  tipo(contexto): título
 
   cuerpo
 
@@ -118,6 +118,12 @@ Nota: Si un cambio cae dentro de dos de estos aspectos probablemente
 deba ser separado en varios *commits*, siendo la excepción el caso de
 nuevas rutinas y sus pruebas unitarias, o modificaciones al código o
 a archivos de configuración que incluyen documentación en comentarios.
+
+#### Contexto (opcional)
+
+Si el proyecto es lo bastante complejo, como para que no sea obvio,
+puedes usar una palabra clave que deje inmediatamente claro en que parte
+del proyecto ocurrió el cambio.
 
 #### Título
 
