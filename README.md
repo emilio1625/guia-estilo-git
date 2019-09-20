@@ -101,7 +101,7 @@ $ git branch --merged | grep -v "\*"
 El tipo está contenido dentro del título y puede ser uno de los
 siguientes:
 
-* **ft:** una nueva característica
+* **add:** una nueva característica
 * **fix:** la corrección de un error
 * **doc:** cambios en la documentación
 * **style:** cambios en el formato del código, puntos y comas faltantes,
